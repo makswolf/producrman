@@ -1,0 +1,105 @@
+/*header*/
+
+body {
+    width: 100%;
+    max-width: 960px;
+    background-image: url(../image/background.png);
+}
+.black {
+    padding-left: 170px;
+    padding-top: 48px;
+    width: 100%;
+}
+.black .menu .menuv {
+    padding: 0;
+}
+.black .menu .menuv li {
+    display: inline-block;
+}
+.black .menu .menuv .logo {
+    width: 272px;
+    height: 36px;
+    color: #303030;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 27px;
+    margin-right: 250px;
+}
+.black .menu .menuv .recent {
+    width: 150px;
+    height: 14px;
+    color: #303030;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/*header*/
+
+
+/*slider*/
+
+.slider {
+    float: left;
+    width: 400px;
+    height: 500px;
+    text-align: right;
+}
+.slider .text h1 {
+    color: #303030;
+    font-family: Raleway;
+    font-size: 90px;
+    font-weight: 900;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.slider .text p {
+    height: 95px;
+    color: #303030;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 0;
+    overflow: hidden;
+}
+.slider .text .red {
+    height: 60px;
+    color: #e10011;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.slider .dots {
+    margin-top: 0;
+}
+.slider .dots li {
+    display: inline-block;
+    margin: 0;
+    width: 11px;
+    height: 11px;
+    background-color: #303030;
+    border-radius: 15px;
+}
+.slider .dots li:first-child {
+    background-color: red;
+}
+.back {
+    float: right;
+    width: 400px;
+    height: 500px;
+}
+.back .gradient {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    z-index: -1;
+   
+}
+.back .headphones {
+    z-index: 1;
+}
+
