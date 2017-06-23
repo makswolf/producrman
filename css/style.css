@@ -59,8 +59,18 @@ ul {
 .menu .menu-item:last-child {
     margin-right: 0;
 }
+.slider {
+     width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.slider:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 .text {
-    width: 618px;
+    width: 48%;
     float: left;
     margin: 0;
     margin-bottom: 40px;
@@ -69,7 +79,7 @@ ul {
     color: #303030;
     font-family: Raleway;
     text-align: right;
-    font-size: 130px;
+    font-size: 110px;
     font-weight: 900;
     line-height: 150px;
     text-transform: uppercase;
@@ -77,17 +87,15 @@ ul {
     margin-right: 40px;
 }
 .text p {
-    width: 571px;
-    height: 98px;
+    height: 100px;
     margin: 0;
     margin-bottom: 25px;
     color: #303030;
     font-family: Roboto;
     text-align: right;
     font-size: 24px;
-    font-weight: 300;
     line-height: 36px;
-    overflow: hidden;
+    overflow:hidden;
 }
 .text .red {
     color: #e10011;
@@ -97,10 +105,13 @@ ul {
     margin-bottom: 80px;
     font-weight: 700;
     line-height: 36px;
+    cursor: pointer;
 }
+
 .text .dots {
     margin-right: 40px;
 }
+
 .text .dots li:hover {
     background-color: red;
     transition: all 0.3s ease;
@@ -115,3 +126,11 @@ ul {
     height: 11px;
     background-color: #303030;
 }
+.back {
+    width: 50%;
+    float: right
+}
+.back .headphones {
+    float: right;
+}
+
